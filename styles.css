@@ -499,6 +499,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;  
+  background-color: #333;
 }
 .iconlist{
   list-style-type: none;

@@ -1,0 +1,10 @@
+[debug] [2021-08-25T20:25:10.939Z] ----------------------------------------------------------------------
+[debug] [2021-08-25T20:25:10.945Z] Command:       C:\Users\rajar\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\rajar\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase login
+[debug] [2021-08-25T20:25:10.946Z] CLI Version:   9.16.5
+[debug] [2021-08-25T20:25:10.946Z] Platform:      win32
+[debug] [2021-08-25T20:25:10.946Z] Node Version:  v12.18.1
+[debug] [2021-08-25T20:25:10.948Z] Time:          Wed Aug 25 2021 22:25:10 GMT+0200 (GMT+02:00)
+[debug] [2021-08-25T20:25:10.948Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
