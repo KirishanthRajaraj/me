@@ -1,7 +1,13 @@
-a,
 a:focus,
 a:hover {
-  color: #fff;
+}
+
+.bt-link{
+
+}
+
+a{
+  text-decoration: none;
 }
 
 .btn-secondary,
@@ -77,6 +83,9 @@ body {
     height: 310px;
     width: 300px;
   }
+  .languages-mobile{
+    visibility: hidden;
+  }
 }
 @media (max-width: 600px) {
   .txt{
@@ -87,6 +96,8 @@ body {
     width: 28%;
     display: none;
   }
+
+
 
 }
 
@@ -131,8 +142,8 @@ body {
   position: relative;
 }
 
-.section-projectsä{
-  
+.section-projects{
+  padding: 0;
 }
 
 .row section .icon,
@@ -176,9 +187,7 @@ body {
   margin: 10px 0 17px 0;
 }
 .row section .bottom a{
-  text-decoration: none;
   background: #ff7979;
-  color: #fff;
   padding: 7px 15px;
   border-radius: 5px;
   /* font-size: 17px; */
@@ -254,6 +263,54 @@ body {
 /*
 * own styles
 */
+
+.blitztypes{
+  
+}
+.blitztypes-text{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 1.25em;
+}
+.notepad-text{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.languages{
+  display: flex;
+  justify-content: space-between;
+}
+
+.languages-mobile{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flags{
+  border-radius: 50%;
+  border:#292b2c 5px solid;
+}
+
+.flagcontent{
+  vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.caption{
+  display: block;
+}
+
+.fluency{
+  color: rgb(151, 151, 151);
+}
 
 .about-me{
   padding:0;
@@ -372,7 +429,6 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  color: #fff;
   height: 100vh;
   background-color: #404040;
 }
@@ -383,7 +439,6 @@ body {
 .skill-box{
   padding-bottom: 2em;
   padding-left: 2em;
-  background-color: greenyellow;
   border-radius: 20px;
 }
 
@@ -477,6 +532,10 @@ body {
   border-radius: 10px;
 }
 
+.padding-four{
+  padding-top: 4em;
+}
+
 .padding-two{
   padding-top: 2em;
 }
@@ -487,6 +546,7 @@ body {
 
 .icons{
   text-decoration: none;
+  color: #fff;
 }
 .icons:hover{
   filter: brightness(20%);
